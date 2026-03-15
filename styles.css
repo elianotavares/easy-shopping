@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+
+.wrapper {
+    width: 1300px;
+    
+
+}
+
+.lado-esquerdo {
+
+    display: inline-block;
+    width: 60%;
+    height: 40vh;
+    margin-top: 220px;
+    margin-left: 136px;
+}
+
+.lado-direito {
+    display: inline-block;
+    background: rgb(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.logo-image {
+    position: relative;
+    top: 13%;
+    right: 18%;
+    width: 380px; 
+    height: 480px;
+}
+
+header {
+    width: 470px;
+    height: 41.12px;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.link-header {
+    width: 59px;
+    height: 41px;
+    font-size: 28px;
+    line-height: 100%;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    opacity: 80%;
+}
+
+.link-header:active {
+    opacity: 60%;
+}
+
+.Work {
+    opacity: 40%;
+}
+
+.Work:hover {
+    opacity: 60%;
+}
+
+.Work:active {
+    opacity: 90%;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0px;
+
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    opacity: 0.6;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    margin: 15px 0px;
+}
+
+.button-text {
+    width: 269px;
+    height: 62px;
+    opacity: 1;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    border-radius: 35px;
+    border: none;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7B81E3;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+    .lado-esquerdo {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    }
+
+    .lado-direito {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .logo-image {
+        position: static;
+        width: 40%;
+        margin-left: 300px;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1{
+        width: 210px;
+        font-size: 36px;
+        line-height: 52px;
+        margin: 58px 54px 0px ;
+        margin-left: 550px;
+        text-align: center;
+    }
+
+     p {
+        width: 400px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 40px;
+        margin-left: 450px;
+        text-align: center;
+    }
+
+    button{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
